@@ -182,8 +182,8 @@ a {
   color: red; 
   text-decoration: none;
 }
-a:hover , a:visted, a:link, a:active{
-  color: red;
+ a:visted, a:hover, a:active{
+  color: blue;
   text-decoration: none; 
 }
 
@@ -191,7 +191,7 @@ a:hover , a:visted, a:link, a:active{
   color:red;
   text-decoration: none;
 }
-#subscribe a:hover , a:visted, a:link, a:active{
+#subscribe a:hover {
   color:red;
   text-decoration: none;
 }
@@ -206,20 +206,19 @@ a:hover , a:visted, a:link, a:active{
     text-decoration: none;
 }
 
-#button a:hover , a:visted, a:link, a:active{
+#button a:hover {
     color: red; 
     text-decoration: none;
 }
 
 #email a{
   color:red;
-  border-bottom:2px solid red;
   text-decoration: none;
 }
 
-#email a:hover , a:visted, a:link, a:active{
-    color: red; 
-    border-bottom:2px solid red;
+#email a:hover {
+   color: blue; 
+   border-bottom:2px solid blue;
 }
 
 #studiomates a{
@@ -229,21 +228,20 @@ a:hover , a:visted, a:link, a:active{
 }
 
 
-#studiomates a:hover , a:visted, a:link, a:active{
-   color: red; 
- text-decoration: underline;
+#studiomates  a:hover {
+   color: blue; 
+   border-bottom:1px solid blue;
 }
 
 #eventinfo a{
   color: red; 
-  border-bottom:1px solid red;
   text-decoration:none;
 }
 
 
-#eventinfo a:hover , a:visted, a:link, a:active{
-   color: red; 
- text-decoration: underline;
+#eventinfo a:hover {
+   color: blue; 
+   border-bottom:1px solid blue;
 }
 img,
 video,
