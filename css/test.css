@@ -117,7 +117,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 }
 
 #date{
-  margin-top: 30px !important;
+  margin-top: 10px !important;
   margin-bottom: 20%;
   font-family: Inconsolata, monospace;
   -webkit-font-smoothing: antialiased !important;
