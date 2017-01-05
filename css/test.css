@@ -1495,8 +1495,8 @@ hr{
 
 }
 
-@media (max-device-width : 960px){ 
-hr{
+@media (max-width : 960px){ 
+.hr{
   width:100%;
   border-width: 2px;
   border-color:red;
