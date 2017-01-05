@@ -162,8 +162,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 }
 }
 /* Larger than phablet */
-@media (max-width: 960px) {
-}
+@media screen and (min-width: 60rem) {
 p, h1, h2, h3, h4, h5{text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased !important;}
 p {	font-size: 1rem; line-height: 1.3;  letter-spacing: 0; color:red;  margin-top: 0;}
 /*h1 {  font-size: 1.2rem; line-height: 1.5;  letter-spacing: 0; color:red;  margin-top: 0;}
