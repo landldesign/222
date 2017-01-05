@@ -1495,6 +1495,17 @@ hr{
 
 }
 
+@media (max-device-width : 960px){ 
+hr{
+  width:100%;
+  border-width: 2px;
+  border-color:red;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+}
+
 .mobileShow { 
   display: none;
 }
