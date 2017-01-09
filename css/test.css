@@ -138,7 +138,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 #date{
   font-family: Inconsolata, monospace;
   margin-top: 15px !important;
-  margin-bottom: 0px !important;
+  margin-bottom: 5px !important;
 
 }
 }
