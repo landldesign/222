@@ -884,7 +884,7 @@ opacity:1;
 
 .subscribe-form {
   margin-top:5px;
- margin-bottom: 80px;
+ margin-bottom: 40px;
 }
 
 .subscribe-input {
@@ -925,7 +925,7 @@ opacity:1;
   }
 }
 
-@media (max-device-width : 960px){ 
+@media (max-width : 960px){ 
     #subscribe-form { 
       margin-bottom: 120px;
 
@@ -1428,5 +1428,16 @@ hr{
    @media (max-device-width : 960px){ 
     .mobileShow { 
       display: inline;
+      }}
+
+
+#leftside{
+   margin-top: 80px;
+}
+
+@media (max-width : 960px){ 
+    #leftside { 
+      margin-top:20px;
+
       }}
 
