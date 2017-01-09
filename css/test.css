@@ -888,7 +888,7 @@ opacity:1;
 }
 
 .subscribe-input {
-  width: 25.5%;
+  width: 40%;
   font-family: Inconsolata, monospace;
   font-size: .96rem; 
   line-height: 1.6;  
@@ -898,8 +898,8 @@ opacity:1;
   border:none;
   border-bottom:1px solid red;
 
-
 }
+
 
 .subscribe-submit {
  width: auto;
@@ -1348,9 +1348,17 @@ input { @include box-sizing(border-box); }
 #address{
       float: right;
       text-align: right;
+       margin-top: 0px;
     }
 
+@media (max-width : 960px){ 
+    #address{ 
+      float: none;
+      text-align: left;
+      display: block;
+      margin-top: 20px;
 
+      }}
 
 #subscribe{
   text-align: left;
