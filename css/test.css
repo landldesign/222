@@ -75,7 +75,6 @@ article,
 div,
 fieldset,
 figure,
-form,
 footer,
 header,
 nav,
@@ -116,9 +115,18 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
   font-size: .95rem; line-height: 1.6;  letter-spacing: 1.6px; color:red; text-transform: uppercase;
 }
 
+@media(max-device-width : 960px){ 
+#smalltext{
+  margin-bottom:-25px;
+
+}
+
+}
+
+
 #date{
   margin-top: 10px !important;
-  margin-bottom: 20%;
+  margin-bottom: 20px;
   font-family: Inconsolata, monospace;
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility;
@@ -127,7 +135,9 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 
 @media(max-device-width : 960px){ 
 #date{
-  margin-bottom:10%;
+  font-family: Inconsolata, monospace;
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
 
 }
 }
@@ -146,6 +156,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 @media(max-device-width : 960px){ 
 #eventinfo{
   margin-bottom:10%;
+  margin-top: -20px;
 
 }
 }
@@ -805,139 +816,6 @@ opacity:1;
     margin-top: -0.8125rem;
     margin-left: -0.8125rem; }
 
-/* Form */
-/* ========================================================================== */
-form {
-  padding-bottom: 0.875rem;
-  text-align: left; }
-  @media screen and (min-width: 47.5em) {
-    form {
-      padding-bottom: 2.625rem; } }
-  @media screen and (min-width: 60rem) {
-    form {
-      padding-bottom: 2rem; } }
-  form h3 {
-    text-align: left !important; }
-  form .input {
-    box-shadow: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    height: 2.125rem;
-    width: calc(100% - 4.125rem); }
-    @media screen and (min-width: 47.5em) {
-      form .input {
-        height: 3.5rem;
-        width: calc(100% - 5.9375rem); } }
-    form .input input {
-      border: 0.125rem solid #000;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      color: #000;
-      font-size: 1rem;
-      line-height: normal;
-      text-align: center;
-      background-color: white;
-      padding: 0 0.75rem;
-      text-align: left; }
-      @media screen and (min-width: 47.5em) {
-        form .input input {
-          padding: 0 1.25rem;
-          font-size: 1.875rem;
-          text-align: left; } }
-      @media screen and (min-width: 60rem) {
-        form .input input {
-          text-align: left; } }
-      form .input input.error {
-        color: #0000ff; }
-        form .input input.error:focus {
-          color: #000; }
-        form .input input.error::-webkit-input-placeholder {
-          color: #0000ff !important; }
-        form .input input.error::-moz-placeholder {
-          color: #0000ff !important; }
-        form .input input.error:-ms-input-placeholder {
-          color: #0000ff !important; }
-        form .input input.error:-moz-placeholder {
-          color: #0000ff !important; }
-      form .input input.submitted {
-        color: #0000FF; }
-        form .input input.submitted:focus {
-          color: #000; }
-      form .input input:focus {
-        color: #000; }
-    form .input.submit {
-      border-color: #888;
-      width: 2.875rem;
-      position: absolute;
-      margin-top: 0;
-      bottom: 0.875rem;
-      top: auto;
-      right: 0;
-      border: none !important;
-      padding: 0; }
-      form .input.submit input {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        text-indent: -9999px;
-        border: none !important;
-        z-index: 30;
-        background-color: transparent !important; }
-      @media screen and (min-width: 47.5em) {
-        form .input.submit {
-          width: 4.6875rem;
-          bottom: 2.625rem; } }
-      @media screen and (min-width: 60rem) {
-        form .input.submit {
-          bottom: 0;
-          top: auto; } }
-      form .input.submit .open-button {
-        display: block;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute; }
-        form .input.submit .open-button svg {
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
-          form .input.submit .open-button svg * {
-            fill: #000; }
-      form .input.submit:hover .open-button svg * {
-        fill: #0000ff; }
-      form .input.submit .closed-button {
-        display: none;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        position: absolute; }
-        form .input.submit .closed-button svg {
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          position: absolute; }
-          form .input.submit .closed-button svg * {
-            fill: #000; }
-      form .input.submit.submitted .open-button {
-        display: none; }
-      form .input.submit.submitted .closed-button {
-        display: block; }
-  form .wpcf7-response-output {
-    display: none !important; }
 
 /* Mobile Ticker */
 /* ========================================================================== */
@@ -1004,7 +882,7 @@ form {
 
 
 .subscribe-form {
-
+ margin-bottom: 80px;
 }
 
 .subscribe-input {
@@ -1044,6 +922,12 @@ form {
 
   }
 }
+
+@media (max-device-width : 960px){ 
+    #subscribe-form { 
+      margin-bottom: 120px;
+
+      }}
 
 input { @include box-sizing(border-box); }
 ::-moz-focus-inner { padding: 0; border: 0 }
@@ -1464,12 +1348,14 @@ input { @include box-sizing(border-box); }
       text-align: right;
     }
 
+
+
 #subscribe{
   text-align: left;
 }
 
 #hangline{
-  padding-top:105px;
+  padding-top:145px;
 }
 
 @media (max-device-width : 960px){ 
