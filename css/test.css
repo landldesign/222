@@ -134,11 +134,11 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
   font-size: .95rem; line-height: 1.6;  letter-spacing: 1.6px; color:red; text-transform: uppercase;
 }
 
-@media(max-device-width : 960px){ 
+@media(max-width : 960px){ 
 #date{
   font-family: Inconsolata, monospace;
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
+  margin-top: 15px !important;
+  margin-bottom: 5px !important;
 
 }
 }
