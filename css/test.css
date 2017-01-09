@@ -127,7 +127,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 
 #date{
   margin-top: 10px !important;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-family: Inconsolata, monospace;
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility;
@@ -148,7 +148,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
   line-height: 1.35;  
   letter-spacing: 0; 
   margin-top:-40px;
-  margin-bottom: 20%;
+  margin-bottom: 0px;
   color:red;
    -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility;
@@ -156,7 +156,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 
 @media(max-device-width : 960px){ 
 #eventinfo{
-  margin-bottom:10%;
+  margin-bottom:30px;
   margin-top: -5%;
 
 }
@@ -1357,7 +1357,7 @@ input { @include box-sizing(border-box); }
 }
 
 #hangline{
-  padding-top:80px;
+  padding-top: 75px;
 }
 
 @media (max-device-width : 960px){ 
@@ -1405,21 +1405,13 @@ hr{
   width:98%;
   border-width: 4px;
   border-color:red;
-  margin-top:50px;
-  margin-bottom: 50px;
-
-}
-
-@media (min-width : 960px){ 
-hr{
-  width:100%;
-  border-width: 2px;
-  border-color:red;
-  margin-top: 40px;
+  margin-top:40px;
   margin-bottom: 40px;
+  display:inline-block;
 
 }
-}
+
+
 
 .mobileShow { 
   display: none;
