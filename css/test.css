@@ -125,6 +125,13 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
   font-size: .95rem; line-height: 1.6;  letter-spacing: 1.6px; color:red; text-transform: uppercase;
 }
 
+@media(max-device-width : 960px){ 
+#date{
+  margin-bottom:10%;
+
+}
+}
+
 #eventinfo{
   font-size: 1.1rem; 
   line-height: 1.35;  
@@ -138,7 +145,7 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 
 @media(max-device-width : 960px){ 
 #eventinfo{
-  margin-bottom:30%;
+  margin-bottom:10%;
 
 }
 }
@@ -161,18 +168,8 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: 0;  }
 
 }
 }
-/* Larger than phablet */
-<<<<<<< HEAD
-@media (min-width: 550px) {
-}
-p, h1, h2, h3, h4, h5{text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased !important;}
-p {	font-size: 2.1rem; line-height: 1.3;  letter-spacing: 0; color:red;  margin-top: 0;}
-h1 {  font-size: 1.2rem; line-height: 1.5;  letter-spacing: 0; color:red;  margin-top: 0;}
-h2 {	font-size: 12px; font-size: 1.2rem; line-height: 1.5;  letter-spacing: 0; color:red;}
-  h3 { font-size: 3rem; line-height: 1.3;  letter-spacing: 0; color:red;  margin-top: 0;}
-  h4 { font-size: 3.0rem; color:red;}
-  h5 { font-size: 2.4rem; color:red;}
-=======
+
+  
 @media (min-width : 960px){ 
 p, h1, h2, h3, h4, h5 {text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased !important;}
 p {	font-size: 3rem; line-height: 1.3;  letter-spacing: 0; color:red;  margin-top: 0;}
@@ -616,7 +613,7 @@ opacity:1;
   @media screen and (min-width: 47.5em) {
     #mobile-intro {
       padding-bottom: 1.625rem;
-      padding-top: 9.5rem; } }
+      padding-top: 0rem; } }
   @media screen and (min-width: 60rem) {
     #mobile-intro {
       display: none; } }
@@ -1475,6 +1472,13 @@ input { @include box-sizing(border-box); }
   padding-top:105px;
 }
 
+@media (max-device-width : 960px){ 
+    #hangline{ 
+      padding-top:10px;
+
+      }}
+
+
 
 #event-left{
   width: 55%;
@@ -1513,8 +1517,8 @@ hr{
   width:98%;
   border-width: 4px;
   border-color:red;
-  margin-top:80px;
-  margin-bottom: 80px;
+  margin-top:20px;
+  margin-bottom: 20px;
 
 }
 
